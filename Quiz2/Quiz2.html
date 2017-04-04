@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quiz 2</title>
+    <link rel="stylesheet" href="Quiz2.css">
+  </head>
+  <body>
+    <header>
+      <h1>This is the second quiz</h1>
+    </header>
+    <section id="firstSection">
+      <nav>
+        <ul>
+          <li>
+            <a href="http://google.com" target="_blank">Google</a>
+          </li>
+          <li>
+            <a href="http://mattbowytz.com" target="blank">Class Site</a>
+          </li>
+          <li>
+            <a href="http://amazon.com" target="_blank">Amazon</a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+
+    <section class="dynamic"></section>
+
+    <section>
+      <p>This is a List</p>
+      <ul>
+        <li>Jackie Rinkus</li>
+        <li>CS0134</l>
+        <li>Quiz 2</li>
+        <li>Web Design</li>
+      </ul>
+    </section>
+
+    <section id="thirdSection">
+
+      <form action="" method="get">
+        <fieldset>
+          <label for="first_name">First Name</label>
+          <input type="text" id="first_name">
+        </fieldset>
+        <fieldset>
+          <label for="last_name">Last Name</label>
+          <input type="text" id="last_name">
+        </fieldset>
+        <fieldset>
+          <label for="email_name">Email Address</label>
+          <input type="email" id="email_name">
+        </fieldset>
+        <fieldset>
+          <input type="color" value="sunbmit">
+          <input type="date" value="reset">
+        </fieldset>
+      </form>
+    </section>
+
+    <h2>Let's add some Javascript to this Quiz!</h2>
+    <p id="wordChange">We can change things at the click of a button!</p>
+    <button type="button" onclick='document.getElementById("wordChange").innerHTML = "We love Javascript!"'>Click Me!</button>
+    </br>
+    </br>
+    <div class="colorchange"> Click on me to change my size and color</div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="Quiz2.js"> </script>
+  </body>
+</html>
